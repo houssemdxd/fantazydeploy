@@ -19,10 +19,14 @@ services:
       - "5000:5000"
     environment:
       - MONGO_URI=mongodb://mongo:27017/fantazy_db
+      - FLASK_APP=app.py
     depends_on:
       - mongo
-    # ensure Flask listens on all interfaces
-    command: python3 app.py --host 0.0.0.0
+    volumes:
+      - ./flask-api:/app
+    working_dir: /app/app
+    command: flask run --host=0.0.0.0 --port=5000 --no-reload
+
 
   nest-app:
     build: ./nest-app
@@ -36,5 +40,5 @@ services:
     depends_on:
       - mongo
       - flask-api
-    # small delay to ensure services are ready
     command: sh -c "sleep 10 && node --experimental-global-webcrypto dist/main.js"
+
