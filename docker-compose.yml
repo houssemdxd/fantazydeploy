@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-data:/data/db
+      - ./mongo-backup:/docker-entrypoint-initdb.d:ro
+
+  flask-api:
+    build: ./flask-api
+    container_name: flask-api
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/fantazy_db
+    depends_on:
+      - mongo
+
+  nest-app:
+    build: ./nest-app
+    container_name: nest-app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - "MONGO_URL=mongodb://mongo:27017/fantazy_db"
+      - "JWT_SECRET=secret key"
+    depends_on:
+      - mongo
+    # Add a small delay to ensure mongo is ready
+    command: sh -c "sleep 10 && node --experimental-global-webcrypto dist/main.js"

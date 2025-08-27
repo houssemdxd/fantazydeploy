@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.10",
+    "fork-ts-checker-webpack-plugin": "^9.1.0",
+    "ts-loader": "^9.5.4",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}

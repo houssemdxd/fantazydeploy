@@ -1,0 +1,16 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy your Flask app
+COPY . .
+
+# Expose Flask port
+EXPOSE 5000
+
+# Run Flask API (replace app.py with your actual filename)
+CMD ["python", "app/matchs.py"]
