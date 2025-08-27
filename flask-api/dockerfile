@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 5000
 
 # Run Flask API (replace app.py with your actual filename)
-CMD ["python", "app/matchs.py"]
+CMD ["python", "app/app.py"]

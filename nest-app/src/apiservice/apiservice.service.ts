@@ -37,11 +37,19 @@ console.log("this site called 0000000000000")
         // Apply +15 minutes
   
 
-        event.event_time = `${String(hours).padStart(2, '0')}:${String(
-          minutes
-        ).padStart(2, '0')}`;
+       minutes += 15;
+
+      // Handle overflow
+      if (minutes >= 60) {
+        minutes -= 60;
+        hours = (hours + 1) % 24; // wrap around if > 23
       }
-      return event;
+
+      event.event_time = `${String(hours).padStart(2, '0')}:${String(
+        minutes
+      ).padStart(2, '0')}`;
+    }
+    return event;
     });
   }
 console.log(data)

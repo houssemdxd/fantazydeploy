@@ -12,20 +12,20 @@ services:
       - ./mongo-backup:/docker-entrypoint-initdb.d:ro
 
   flask-api:
-    build: ./flask-api
-    container_name: flask-api
-    restart: always
-    ports:
-      - "5000:5000"
-    environment:
-      - MONGO_URI=mongodb://mongo:27017/fantazy_db
-      - FLASK_APP=app.py
-    depends_on:
-      - mongo
-    volumes:
-      - ./flask-api:/app
-    working_dir: /app/app
-    command: flask run --host=0.0.0.0 --port=5000 --no-reload
+      build: ./flask-api
+      container_name: flask-api
+      restart: always
+      ports:
+        - "5000:5000"
+      environment:
+        - MONGO_URI=mongodb://mongo:27017/fantazy_db
+        - FLASK_APP=app.py
+      depends_on:
+        - mongo
+      volumes:
+        - ./flask-api:/app
+      working_dir: /app/app
+      command: flask run --host=0.0.0.0 --port=5000 --no-reload
 
 
   nest-app:
@@ -40,5 +40,5 @@ services:
     depends_on:
       - mongo
       - flask-api
+    # small delay to ensure services are ready
     command: sh -c "sleep 10 && node --experimental-global-webcrypto dist/main.js"
-
