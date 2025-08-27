@@ -1,0 +1,889 @@
+{
+    "success": 1,
+    "result": [{
+        "event_key": 1637729,
+        "event_date": "2025-08-27",
+        "event_time": "16:30",
+        "event_home_team": "Zarzis",
+        "home_team_key": 7605,
+        "event_away_team": "Ben Guerdane",
+        "away_team_key": 7613,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Complexe Sportif Abdessalem Kazouz",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7605_zarzis.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7613_ben-guerdane.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "H. Jabnoun",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "A. Chaouat",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637730,
+        "event_date": "2025-08-27",
+        "event_time": "16:30",
+        "event_home_team": "Olympique Beja",
+        "home_team_key": 7619,
+        "event_away_team": "JS Kairouan",
+        "away_team_key": 7624,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Boujem\u00e2a Lekmiti",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7619_olympique-beja.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7624_kairouan.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "N. Beyaoui",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "L. Chriti",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637731,
+        "event_date": "2025-08-27",
+        "event_time": "16:30",
+        "event_home_team": "AS Marsa",
+        "home_team_key": 9985,
+        "event_away_team": "Monastir",
+        "away_team_key": 7616,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Abdelaziz Chtioui",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/9985_marsa.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7616_monastir.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "C. Meftah",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "M. Sahli",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637732,
+        "event_date": "2025-08-27",
+        "event_time": "17:00",
+        "event_home_team": "Bizertin",
+        "home_team_key": 7623,
+        "event_away_team": "Club Africain",
+        "away_team_key": 7622,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade du 15 Octobre (Bizerte (Banzart))",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7623_bizertin.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7622_club-africain.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "N. Oumaya",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "D. Bettoni",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637733,
+        "event_date": "2025-08-27",
+        "event_time": "17:00",
+        "event_home_team": "Tunis",
+        "home_team_key": 7611,
+        "event_away_team": "Soliman",
+        "away_team_key": 7617,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade olympique Hammadi-Agrebi (Rad\u00e8s)",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7611_es-tunis.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7617_soliman.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "Maher Kanzari",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "S. Zarrouk",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637734,
+        "event_date": "2025-08-27",
+        "event_time": "17:00",
+        "event_home_team": "Sfax",
+        "home_team_key": 7614,
+        "event_away_team": "Omrane",
+        "away_team_key": 23839,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Ta\u00efeb Mhiri (Sfax (Saf\u0101qis))",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7614_cs-sfaxien.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/23839_js-omrane.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "L. Dridi",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "L. Kadri",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637735,
+        "event_date": "2025-08-27",
+        "event_time": "17:00",
+        "event_home_team": "ES Sahel",
+        "home_team_key": 7612,
+        "event_away_team": "ASG",
+        "away_team_key": 7600,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Olympique de Sousse (Sousse (S\u016bsah))",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7612_etoile-du-sahel.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7600_gabes.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "H. Daou",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "T. Jaraya",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637736,
+        "event_date": "2025-08-27",
+        "event_time": "16:30",
+        "event_home_team": "Stade Tunisien",
+        "home_team_key": 7618,
+        "event_away_team": "Metlaoui",
+        "away_team_key": 7620,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade H\u00e9di-Enneifer",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7618_stade-tunisien.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7620_metlaoui.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "C. Khatoui",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "I. Ben Younes",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637722,
+        "event_date": "2025-08-22",
+        "event_time": "16:30",
+        "event_home_team": "AS Gabes",
+        "home_team_key": 7600,
+        "event_away_team": "AS Marsa",
+        "away_team_key": 9985,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade de Zrig",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7600_gabes.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/9985_marsa.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "T. Jaraya",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "C. Meftah",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637723,
+        "event_date": "2025-08-22",
+        "event_time": "16:30",
+        "event_home_team": "Club Africain",
+        "home_team_key": 7622,
+        "event_away_team": "Zarzis",
+        "away_team_key": 7605,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade olympique Hammadi-Agrebi",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7622_club-africain.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7605_zarzis.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "D. Bettoni",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "H. Jabnoun",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637726,
+        "event_date": "2025-08-22",
+        "event_time": "16:30",
+        "event_home_team": "Monastir",
+        "home_team_key": 7616,
+        "event_away_team": "Olympique Beja",
+        "away_team_key": 7619,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Mustapha Ben Jannet",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7616_monastir.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7619_olympique-beja.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "M. Sahli",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "N. Beyaoui",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637727,
+        "event_date": "2025-08-22",
+        "event_time": "16:30",
+        "event_home_team": "Metlaoui",
+        "home_team_key": 7620,
+        "event_away_team": "CS Sfaxien",
+        "away_team_key": 7614,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Municipal de M\u00e9tlaoui",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7620_metlaoui.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7614_cs-sfaxien.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "I. Ben Younes",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "L. Dridi",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637721,
+        "event_date": "2025-08-21",
+        "event_time": "16:30",
+        "event_home_team": "Soliman",
+        "home_team_key": 7617,
+        "event_away_team": "Stade Tunisien",
+        "away_team_key": 7618,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade de Soliman",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7617_soliman.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7618_stade-tunisien.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "S. Zarrouk",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "C. Khatoui",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637725,
+        "event_date": "2025-08-21",
+        "event_time": "16:30",
+        "event_home_team": "Ben Guerdane",
+        "home_team_key": 7613,
+        "event_away_team": "Etoile Sahel",
+        "away_team_key": 7612,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade de Ben Guerdane",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7613_ben-guerdane.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7612_etoile-du-sahel.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "A. Chaouat",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "H. Daou",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }, {
+        "event_key": 1637728,
+        "event_date": "2025-08-21",
+        "event_time": "16:30",
+        "event_home_team": "JS Kairouan",
+        "home_team_key": 7624,
+        "event_away_team": "Esperance Tunis",
+        "away_team_key": 7611,
+        "event_halftime_result": "",
+        "event_final_result": "-",
+        "event_ft_result": "",
+        "event_penalty_result": "",
+        "event_status": "",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 3",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        "event_stadium": "Stade Hamda Laouani",
+        "event_referee": "",
+        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7624_kairouan.jpg",
+        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7611_es-tunis.jpg",
+        "event_country_key": 110,
+        "league_logo": null,
+        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
+        "event_home_formation": "",
+        "event_away_formation": "",
+        "fk_stage_key": 1653,
+        "stage_name": "Current",
+        "league_group": null,
+        "goalscorers": [],
+        "substitutes": [],
+        "cards": [],
+        "vars": {
+            "home_team": [],
+            "away_team": []
+        },
+        "lineups": {
+            "home_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "L. Chriti",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            },
+            "away_team": {
+                "starting_lineups": [],
+                "substitutes": [],
+                "coaches": [{
+                    "coache": "Maher Kanzari",
+                    "coache_country": null
+                }],
+                "missing_players": []
+            }
+        },
+        "statistics": []
+    }]
+}
