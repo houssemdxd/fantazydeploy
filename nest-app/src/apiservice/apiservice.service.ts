@@ -140,7 +140,7 @@ async  getMatches(): Promise<any[]> {
   const matches: any[] = [];
 
   try {
-    const response = await fetch('http://127.0.0.1:5000/matches');
+    const response = await fetch('http://flask-api:5000matches');
 
     if (!response.ok) {
       throw new Error(`API request failed with status: ${response.status}`);
@@ -162,7 +162,7 @@ async  getMatches(): Promise<any[]> {
 async getMatchesByRoundSofa(roundId: number) {
     try {
       // Replace with your Flask server URL and endpoint
-      const url = `http://localhost:5000/matches?round=${roundId}`;
+      const url = `http://flask-api:5000/matches?round=${roundId}`;
       
       // Call the Flask API
       const response = await firstValueFrom(this.httpService.get(url));
@@ -190,7 +190,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
 
   async getLineupsofa(matchId: string) {
-    const baseUrl = 'http://127.0.0.1:5000/lineup'; // Flask API URL
+    const baseUrl = 'http://flask-api:5000/lineup'; // Flask API URL
     const url = `${baseUrl}/${matchId}`;
 
     try {
@@ -210,7 +210,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
   async getLiveUpdatefromsofa(matchId: string, homeCode: string, awayCode: string) {
     try {
-      const url = 'http://127.0.0.1:5000/events';
+      const url = 'http://flask-api:5000/events';
       const response = await firstValueFrom(
         this.httpService.get(url, {
           params: {

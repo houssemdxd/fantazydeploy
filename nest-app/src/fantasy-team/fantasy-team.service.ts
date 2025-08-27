@@ -1463,7 +1463,7 @@ async getMockLiveScores(matchId?: string, homeCode?: string, awayCode?: string):
     const finalHomeCode = homeCode || '7600';
     const finalAwayCode = awayCode || '7611';
     
-    const apiUrl = `http://127.0.0.1:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
+    const apiUrl = `http://flask-api:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
     
     console.log(`[getMockLiveScores] Calling API: ${apiUrl}`);
     

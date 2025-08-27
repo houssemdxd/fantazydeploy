@@ -304,7 +304,7 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
       const finalHomeCode = homeCode || '7600';
       const finalAwayCode = awayCode || '7611';
 
-      const apiUrl = `http://127.0.0.1:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
+      const apiUrl = `http://flask-api:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
       this.logger.log(`[getMockLiveScores] Calling API: ${apiUrl}`);
 
       const response = await fetch(apiUrl);
