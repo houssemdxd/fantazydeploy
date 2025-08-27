@@ -69,6 +69,11 @@ async getSimplifiedFixtures(journeeRoundNumber: number) {
 }
 
 async createFixturesFromApi(journeeRoundNumber: number): Promise<any[]> {
+
+  if (!journeeRoundNumber)
+  {
+    journeeRoundNumber= 4;
+  }
   const fixtures = await this.getSimplifiedFixtures(journeeRoundNumber);
   const latestRound = await this.roundModel.findOne().sort({ roundNumber: -1 });
   if (!latestRound) return [];

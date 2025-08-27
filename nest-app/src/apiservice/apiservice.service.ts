@@ -12,7 +12,6 @@ export class ApiserviceService {
   constructor(private readonly httpService: HttpService) {}
 async getFixtures(from: string, to: string, countryId: number) {
 
-console.log("this site called 0000000000000")
 
 
     const params = new URLSearchParams();
@@ -52,7 +51,6 @@ console.log("this site called 0000000000000")
     return event;
     });
   }
-console.log(data)
   return data;
   return {
     "success": 1,

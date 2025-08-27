@@ -142,7 +142,7 @@ export class RoundSchedulerService {
       await this.playerStatService.deleteDuplicateStatsForLastRound();
       await this.playerStatService.generateRandomStatsForLastRound();
 
-            const fixtures = await this.fixtureService.createFixturesFromApi(journee.round);
+     const fixtures = await this.fixtureService.createFixturesFromApi(journee.round);
 
           if (!fixtures.length) {
         this.logger.warn('⚠️ No fixtures returned from API');

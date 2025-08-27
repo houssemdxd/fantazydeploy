@@ -1,0 +1,3 @@
+db.teams.find()
+db.players.find()
+use fantazy_db
