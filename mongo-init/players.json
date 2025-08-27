@@ -1,0 +1,5520 @@
+[{
+  "_id": 1468358,
+  "name": "Moumen Rahmani",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967301,
+  "name": "Innocent Nshuti",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410420,
+  "name": "Mohamed Hedi Jertila",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2034204,
+  "name": "Clavert Kiendrebeogo",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018235,
+  "name": "Yosri Dhiflaoui",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967389,
+  "name": "Louay Ben Dahnous",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018214,
+  "name": "Nwoke Kelechi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1799517,
+  "name": "Stanley Ogoh",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045976,
+  "name": "Taher Hamouda",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 918966,
+  "name": "Achref Ben Dhiaf",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1467288,
+  "name": "Ousmane Kokoe Coumbassa",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013822,
+  "name": "Khalil Kassab",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018207,
+  "name": "Mourad Hakem",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 359384,
+  "name": "Kouni Khalfa",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967318,
+  "name": "Moatez Chouchane",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018188,
+  "name": "Amir Tajouri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018225,
+  "name": "Rayen Seghaier",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2034222,
+  "name": "Mohamed Youssef Bousoukaya",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217476,
+  "name": "Zidane Labidi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1471051,
+  "name": "Makrem Sghaier",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1391914,
+  "name": "Hassine Refai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018196,
+  "name": "Lamjed Rjili",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1195216,
+  "name": "Oussama Bahri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045973,
+  "name": "Pape Mamour Diallo",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018192,
+  "name": "Ghassen Mahersi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1190503,
+  "name": "Jassem Belkilani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967351,
+  "name": "Mohamed Firas Ghouma",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018233,
+  "name": "Yassine Laariadh",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045975,
+  "name": "Chigozie Eruchukwu",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013874,
+  "name": "Hamza Ghanmi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919017,
+  "name": "Seifeddine Charfi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018195,
+  "name": "Haykeul Taleb",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018202,
+  "name": "Mohamed Amine Hazgui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018232,
+  "name": "Thameur Afini",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064363,
+  "name": "Yosri Dhaflaoui",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217479,
+  "name": "Ben Mokhtar",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8506"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515574,
+  "name": "Mohamed Kachouri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018201,
+  "name": "Naby Sylla",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967398,
+  "name": "Zied Ben Salem",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013875,
+  "name": "Nassim Chachia",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1467289,
+  "name": "Bacem Hajji",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018183,
+  "name": "Leonel Armel Ngandjeu",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018189,
+  "name": "Mohamed Faleh",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967268,
+  "name": "Sameh Bouhajeb",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018143,
+  "name": "Ali Barhoumi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2218466,
+  "name": "Fernand Xavier Mbiagoup Bobolo",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018134,
+  "name": "Aboubacar Bah",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018142,
+  "name": "Ahmed Ouled Behi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018199,
+  "name": "Muhammed Diame Pape",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013853,
+  "name": "Amine Knaissi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018173,
+  "name": "Ismail Hermes",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018180,
+  "name": "Jeffrey Andre Nyobe",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216458,
+  "name": "Koffi Kouassi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018149,
+  "name": "Anis Lakhel",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018152,
+  "name": "Ayoub Khelifi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018176,
+  "name": "Ited Fajraoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018211,
+  "name": "Souhail Bouani",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2141915,
+  "name": "Aboubacar Stori",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148635,
+  "name": "Mohamed Dkhila",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148636,
+  "name": "Morched Farah",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148637,
+  "name": "Yassine Messaoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 866119,
+  "name": "Sliman Kchouk",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1526902,
+  "name": "Irenee Togbedji Glele",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967314,
+  "name": "Chiheb Aouadi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967367,
+  "name": "Fares Meskini",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018120,
+  "name": "Abdelkader Hannoun",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018185,
+  "name": "Mohamed Amine Dinari",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018191,
+  "name": "Mohamed Hachem Khelifa",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148628,
+  "name": "Karim Messai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216462,
+  "name": "Yassine Soltani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013821,
+  "name": "Sadok Yeddes",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 359428,
+  "name": "Hamza Ben Chrifia",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018182,
+  "name": "Kossai Tlili",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2152130,
+  "name": "Yasser Dinari",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2141916,
+  "name": "Souhaiel Bououni",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850f"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919359,
+  "name": "Chiheb Zoughlami",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018172,
+  "name": "Seif Saadaoui",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967271,
+  "name": "Bilel Touati",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967399,
+  "name": "Malek Jammel",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064350,
+  "name": "Chibeb Zoughlami",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515890,
+  "name": "Amine Ben Amor",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 980529,
+  "name": "Assil Jaziri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919347,
+  "name": "Saber Hammami",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2040407,
+  "name": "Ibrahima Kalil Camara",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2056606,
+  "name": "Aly Casmir Chinonso",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018110,
+  "name": "Firas Mahdouani",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018122,
+  "name": "Haythem Khemissi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018166,
+  "name": "Nafaa Lamine",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018123,
+  "name": "Iheb Ben Rejeb",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018101,
+  "name": "Souhaieb Abdelli",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018111,
+  "name": "Ghaith Ben Hamida",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018178,
+  "name": "Yassine Nahdi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064413,
+  "name": "Yassine Omrane",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967333,
+  "name": "Oussema Romdhani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018169,
+  "name": "Omar Zouaghi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018170,
+  "name": "Samer Marouani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967250,
+  "name": "Haythem Mhamdi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919021,
+  "name": "Sami Hammami",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013876,
+  "name": "Haroune Kouki",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018117,
+  "name": "Ghaith Ben Hassine",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018124,
+  "name": "Kabil Othmani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018158,
+  "name": "Moustapha Souissi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018316,
+  "name": "Bilel Mgannem",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064412,
+  "name": "Saber Messoud",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018119,
+  "name": "Hafedh Bouhouch",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2152141,
+  "name": "Sabri Khmissi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018154,
+  "name": "Montasser Essid",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1102858,
+  "name": "Oussema Hanzouli",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018171,
+  "name": "Seif Nahdi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064403,
+  "name": "Aly Kasmir",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2040378,
+  "name": "Salem Bahri",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2152140,
+  "name": "Youssef Dakhlaoui",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8513"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919198,
+  "name": "Firas Chaouat",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1100192,
+  "name": "Philippe Kinzumbi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1180592,
+  "name": "Fahad Al Mesmari",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 944219,
+  "name": "Bilel Ait Malek",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018139,
+  "name": "Mohamed Ali Omri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 869943,
+  "name": "Bassem Srarfi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967295,
+  "name": "Hamza Khadraoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919054,
+  "name": "Moataz Zemzemi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1996688,
+  "name": "Mohamed Sadok Mahmoud",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1381393,
+  "name": "Osama Al Shreimy",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1002161,
+  "name": "Saidou Khan",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967397,
+  "name": "Ghaith Sghaier",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1457482,
+  "name": "Shawkan Mohammed",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1457231,
+  "name": "Richard Boadu",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634618,
+  "name": "Charfeddine Ouni",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018105,
+  "name": "Yahia Mtiri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018148,
+  "name": "Mohamed Amine Khadhraoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1107439,
+  "name": "Ali Yusuf",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1427155,
+  "name": "Toufik Cherifi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1606544,
+  "name": "Zaalouni Ghaith",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1417847,
+  "name": "Houssem Hassen Romdhane",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919210,
+  "name": "Hamza Ben Abda",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919194,
+  "name": "Houssem Ben Ali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013884,
+  "name": "Oussama Shili",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1879365,
+  "name": "Wills Tene Nkingne",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634612,
+  "name": "Yassine Bouabid",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1862405,
+  "name": "Aziz Ghrissi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1479115,
+  "name": "Dries Arfaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919019,
+  "name": "Ghaith Yeferni",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018130,
+  "name": "Abdelmouhib Chamakh",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1612452,
+  "name": "Wassim Maghzaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2004372,
+  "name": "Malek Saada",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216430,
+  "name": "Youssef Mrad",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8511"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013819,
+  "name": "Youssef Abdelli",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410414,
+  "name": "Aziz Abid",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1606558,
+  "name": "Ibrahim Souissi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1102945,
+  "name": "Elhadji Fall",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1392549,
+  "name": "Malcolm Elhmidi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018344,
+  "name": "Anas Bouatay",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 928810,
+  "name": "Gabriele Gibilterra",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018079,
+  "name": "Esson Victor Musa",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018328,
+  "name": "Seifeddine Souissi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1549264,
+  "name": "Moez Ben Haj Ali",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410429,
+  "name": "Dridi Yassine",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018338,
+  "name": "Mehdi Ganouni",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919193,
+  "name": "Aymen Harzi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1459291,
+  "name": "Alpha Sidibe",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018334,
+  "name": "Ousmane Diane",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018212,
+  "name": "Nassim Douihech",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018157,
+  "name": "Cherif Bodian",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 993218,
+  "name": "Corcione Mario",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018345,
+  "name": "Adnene Yaakoubi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018339,
+  "name": "Mazen Slama",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515895,
+  "name": "Mohamed Aziz Ouerfelli",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018290,
+  "name": "Ayoub Chaabane",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1185707,
+  "name": "Ghorbel Mahmoud",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967224,
+  "name": "Nour Zamen Zammouri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018231,
+  "name": "Seif Sabeur",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515896,
+  "name": "Naude Zeguei",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 918927,
+  "name": "Malek Miladi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1094532,
+  "name": "Rayane Azzouz",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018330,
+  "name": "Raed Chikhaoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018131,
+  "name": "Dhia Maatougui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018291,
+  "name": "Youssef Herch",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2025731,
+  "name": "Omar Hafsi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2204118,
+  "name": "Ayoub Kouraichi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919267,
+  "name": "Abdessalem Hallaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1479349,
+  "name": "Rayen Besbes",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1103426,
+  "name": "Ahmed Slimen",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2046085,
+  "name": "Youssef Methini",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850b"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1612207,
+  "name": "Achref Jebri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2002387,
+  "name": "Koussay Maacha",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1542760,
+  "name": "Jack Diarra",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 359378,
+  "name": "Chiheb Jbeli",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1114143,
+  "name": "Bilel Sahli",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1931680,
+  "name": "Zinedine Kada",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1585739,
+  "name": "Kebba Sowe",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919296,
+  "name": "Oussema Bouguerra",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2002208,
+  "name": "Aboubacar Diakite",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1631302,
+  "name": "Mohamed Rayane Hamrouni",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018236,
+  "name": "Younes Rached",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018136,
+  "name": "Ahmed Bouassida",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 901827,
+  "name": "Youcef Belaili",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 848083,
+  "name": "Yan Sasse",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1394459,
+  "name": "Mokwana Elias",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1470538,
+  "name": "Onuche Ogbelu",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967316,
+  "name": "Houssem Teka",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1463496,
+  "name": "Abdramane Konate",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 874862,
+  "name": "Mohamed Mouhli",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1024032,
+  "name": "Mootez Zaddem",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410421,
+  "name": "Derbali Mohamed Wael",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410430,
+  "name": "Zakaria El Ayeb",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515589,
+  "name": "Khalil Guenichi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515892,
+  "name": "Haytham Dhaou",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1472971,
+  "name": "Aziz Falah",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1018018,
+  "name": "Mohamed Tougai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 898741,
+  "name": "Yassine Meriah",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1196789,
+  "name": "Ibrahima Keita",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1383720,
+  "name": "Elyas Bouzaiene",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1000809,
+  "name": "Amine Ben Hamida",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410423,
+  "name": "Raed Bouchniba",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 898739,
+  "name": "Hamza Jelassi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919149,
+  "name": "Mohamed Ben Ali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2002390,
+  "name": "Mohamed Kodhai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1191135,
+  "name": "Bilel Chabbar",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967293,
+  "name": "Nidhal Laifi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410413,
+  "name": "Amanallah Mjahed",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515587,
+  "name": "Abdelaziz Kneni",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410412,
+  "name": "Amanallah Memmiche",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967309,
+  "name": "Bechir Ben Said",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967338,
+  "name": "Mohamed Sedki Debchi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2127646,
+  "name": "Mohamed Elmokhtar Ifaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216531,
+  "name": "Chiheb Jebali",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8507"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1606568,
+  "name": "Khalil Ayari",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 942832,
+  "name": "Amadou Dia Ndiaye",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1008612,
+  "name": "Firas Ifia",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1467929,
+  "name": "Abderrahman Hanchi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018304,
+  "name": "Moncef Gharbi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018323,
+  "name": "Hosni Guezmir",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018307,
+  "name": "Nacef Atoui",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018292,
+  "name": "Youssef Saafi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018310,
+  "name": "Najd Dabbebi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018320,
+  "name": "Sajed Ferchichi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2204103,
+  "name": "Mohamed Amine Khemissi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018239,
+  "name": "Ahmed Beji",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217436,
+  "name": "Godswill Emmanuel",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018261,
+  "name": "Mazen Ben Daoud",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 880051,
+  "name": "Elyes Jelassi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1094564,
+  "name": "Yusuf Toure",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018242,
+  "name": "Amath Ndaw",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018274,
+  "name": "Mohamed Smaali",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018250,
+  "name": "Hazem Khemiri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018312,
+  "name": "Obaid Chabbi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018268,
+  "name": "Mohamed Akremi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2119534,
+  "name": "Obaid Chebbi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2141894,
+  "name": "Adem Nguili",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2209507,
+  "name": "Rafaeddine Riahi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 359318,
+  "name": "Marouane Sahraoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967253,
+  "name": "Hedi Khalfa",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018238,
+  "name": "Adem Arous",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1457819,
+  "name": "Skander Sghaier",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018175,
+  "name": "Yassine Mizouni",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018305,
+  "name": "Wael Ouerghemmi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2050692,
+  "name": "Wael Werghemmi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018194,
+  "name": "Mounir Jelassi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018246,
+  "name": "Chamseddine Jrid",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018270,
+  "name": "Mohamed Iyadh Riahi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013956,
+  "name": "Noureddine Farhati",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 319971,
+  "name": "Atef Dkhili",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967290,
+  "name": "Mehdi Ben Mrad",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018240,
+  "name": "Ahmed Braiek",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2204106,
+  "name": "Amir Jaouadi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2124699,
+  "name": "Sfaxi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850d"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1100895,
+  "name": "Mohamed Camara",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1094529,
+  "name": "Mouhib Selmi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967323,
+  "name": "Hakim Teka",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018162,
+  "name": "Moukouba Diolvy Agdavain",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018165,
+  "name": "Oussama Naffati",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018125,
+  "name": "Abdelkader Mechri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018306,
+  "name": "Mohamed Nasr Hamed",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018140,
+  "name": "Hamza Abdelkarim",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018177,
+  "name": "Wael Ferjani",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1536806,
+  "name": "Gislain Ahoudo",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1516016,
+  "name": "Mohamed Aziz Sekrafi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1504865,
+  "name": "Mohamed Ameur Belghith",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018151,
+  "name": "Iheb Ben Amor",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018126,
+  "name": "Adem Boulila",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018159,
+  "name": "Mohamed Ali Saidi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919284,
+  "name": "Riadh Frioui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2218467,
+  "name": "Oussama Letifi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1102828,
+  "name": "Amede Masasi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1801669,
+  "name": "Mohamed Naoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018164,
+  "name": "Nour El Beji",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018167,
+  "name": "Rayane Yaakoubi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018163,
+  "name": "Najed Helali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018137,
+  "name": "Firas Ben Ammar",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2029601,
+  "name": "Hedi Trabelsi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018156,
+  "name": "Moatez Bidani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018283,
+  "name": "Nassim Khedher",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967335,
+  "name": "Abdelkader Chouaya",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018145,
+  "name": "Hamza Ben Attig",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2142390,
+  "name": "Jasser Taieb",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2026613,
+  "name": "Oussama Gnounou",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2053373,
+  "name": "Mohamed Falah",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216517,
+  "name": "Moomen Agrebi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216526,
+  "name": "Mahdi Nasfi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216528,
+  "name": "Hssan Touati",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222212,
+  "name": "Hasan Al Jamel",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8505"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1067604,
+  "name": "Farouk Mimouni",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018342,
+  "name": "Iyed Hadj Khalifa",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919295,
+  "name": "Borhane Hakimi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634609,
+  "name": "Adem Ben Ahmed",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 918970,
+  "name": "Fedi Felhi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222658,
+  "name": "Ahmed Souii",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 205644,
+  "name": "Idriss Mhirsi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967282,
+  "name": "Khemais Maaouani",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1067600,
+  "name": "Abdallah Amri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018303,
+  "name": "Junior Bida",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018297,
+  "name": "Iyadh Akrout",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018300,
+  "name": "Jassem Abcha",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018313,
+  "name": "Oussema Amri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217440,
+  "name": "Chedly Kacem",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1168608,
+  "name": "Salah Harrabi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 979554,
+  "name": "Adem Taous",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018299,
+  "name": "Iyed Touis",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 880059,
+  "name": "Ghazi Abderrazzak",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919216,
+  "name": "Mohamed Yeken",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919322,
+  "name": "Jaouhar Ben Hassen",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018317,
+  "name": "Rayane Chaibi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2022902,
+  "name": "Siraj Helal",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018294,
+  "name": "Bacem Zemzem",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217442,
+  "name": "Mohamed Karkouba",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217441,
+  "name": "Lassad Hammami",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217443,
+  "name": "Saber Ben Salah",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045474,
+  "name": "Adem Bououni",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045473,
+  "name": "Wael Abdi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2030452,
+  "name": "Ammar Ltaief",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2030454,
+  "name": "Jassem Bouabcha",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8509"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919056,
+  "name": "Bilel Khefifi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018089,
+  "name": "Ahmed Hadhri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222138,
+  "name": "Godwin Kalu",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1175367,
+  "name": "Ricky Hans Gneba",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1094504,
+  "name": "Fares Neji",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1457820,
+  "name": "Mohamed Amine Tritar",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1610830,
+  "name": "Ojonugwa Adejoh",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018146,
+  "name": "Houcine Mansour",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018271,
+  "name": "Anouar Jouini",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1427538,
+  "name": "Achref Ghrissi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967260,
+  "name": "Mohamed Amine Khaloui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216414,
+  "name": "Amanallah Ben Hamida",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216415,
+  "name": "Mohamed Aziz Traidi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1109191,
+  "name": "Baligh Jemmali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1102859,
+  "name": "Othman Karoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967322,
+  "name": "Hamza Rebaii",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018168,
+  "name": "Tajeddine Salem",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018341,
+  "name": "Nadhir Abdennebi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919158,
+  "name": "Omar Bouraoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1427546,
+  "name": "Yassine Werzli",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018216,
+  "name": "Youssri Arfaoui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018284,
+  "name": "Oussama Jebali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216409,
+  "name": "Mohamed Aziz Chaouch",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967272,
+  "name": "Sami Helal",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410419,
+  "name": "Mohamed Bechir Abbassi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2020186,
+  "name": "Tej El Islem",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216428,
+  "name": "Rayen Ben Chrouda",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216425,
+  "name": "Yassine Zouari",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216416,
+  "name": "Hedi Hichri",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216423,
+  "name": "Med Hedi Msallem",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216427,
+  "name": "Abdelkader Guessmi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216433,
+  "name": "Malek Attia",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8510"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1110093,
+  "name": "Abdoulaye Kanou",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967377,
+  "name": "Yassine Salhi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 933733,
+  "name": "Fakhreddine Ouji",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216478,
+  "name": "Walid Jerbi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1110070,
+  "name": "Sekou Konate",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967327,
+  "name": "Christ Bekale",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1101805,
+  "name": "Bakary Touray",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2218224,
+  "name": "Idriss Liouan",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2218225,
+  "name": "Mohamed Amine Zairi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2228521,
+  "name": "Hamdi Baklouti",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2228525,
+  "name": "Bilel Jarrar",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 215356,
+  "name": "Mohamed Ali Yaakoubi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967223,
+  "name": "Mohamed Amine Lakhal",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967363,
+  "name": "Mehrez Ben Rajeh",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 974811,
+  "name": "Youssef Ayachi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018161,
+  "name": "Hamdi Helal",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 918924,
+  "name": "Abderrahmane Rebai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2228516,
+  "name": "Wissam Jerbi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2228523,
+  "name": "Mohamed Amine Kalai",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 880057,
+  "name": "Achraf Krir",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2228519,
+  "name": "Mohamed Aziz Bejaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216476,
+  "name": "Moujahed Fatnassi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216479,
+  "name": "Skander Naffati",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2223080,
+  "name": "Salmane Lakhder",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2223085,
+  "name": "Youssef Ben Ammar",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216475,
+  "name": "Mohamed Amine Dhouibi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135e09b81cb547ab8504"
+  },
+  "price": 6.5
+},
+{
+  "_id": 979551,
+  "name": "Zied Berrima",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1114478,
+  "name": "Youcef Fellahi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1127720,
+  "name": "Abdoul Ndoye",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018243,
+  "name": "Momar Diop",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018241,
+  "name": "Olamilekan Nurudeen Ayinde",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018302,
+  "name": "Wahid Timi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1123521,
+  "name": "Ahmed Amri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018223,
+  "name": "Favour Onyemechi Adegbile",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2048172,
+  "name": "Mohamed Aziz Khelifi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1002469,
+  "name": "Ibrahima Cissoko",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919222,
+  "name": "Alaeddine Dridi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1383725,
+  "name": "Oussama Ali",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018227,
+  "name": "Iyed Midani",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018220,
+  "name": "Aymen Amri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018210,
+  "name": "Achref Ferchichi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018226,
+  "name": "Firas Ben Othman",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018244,
+  "name": "Othman Charfeddine",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018335,
+  "name": "Mohamed Askri",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1127721,
+  "name": "Abdou Seydi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1606557,
+  "name": "Mohamed Amine Allela",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1606526,
+  "name": "Rayane Rehimi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018222,
+  "name": "Farouk Bougatfa",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1094490,
+  "name": "Aziz Gasmi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018221,
+  "name": "Aziz Gueblia",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018224,
+  "name": "Firas Akermi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018229,
+  "name": "Malek Doukali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2035800,
+  "name": "Aziz Guesmi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1431763,
+  "name": "Yassine Kchouk",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018217,
+  "name": "Amanallah Mouelhi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222973,
+  "name": "Youssef Azib",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2034137,
+  "name": "Moatez Hanzouli",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919060,
+  "name": "Kais Amdouni",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018247,
+  "name": "Sabri Saidi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2216438,
+  "name": "Youssef Maktouf",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2053308,
+  "name": "Md Seydi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2152942,
+  "name": "Walid Madahi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2125620,
+  "name": "Hamza Hammami",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8512"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515565,
+  "name": "Youssef Becha",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1996692,
+  "name": "Omar Ben Ali",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1199322,
+  "name": "Iyed Belwafi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515559,
+  "name": "Ameur Jouini",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2022323,
+  "name": "Mohamed Aidi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217473,
+  "name": "Willy Onana",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1172369,
+  "name": "Mutyaba Travis",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1012602,
+  "name": "Ammar Taifour",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013858,
+  "name": "Firas Sekkouhi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634635,
+  "name": "Mohamed Absi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018311,
+  "name": "Mohamed Trabelsi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018327,
+  "name": "Jasser Maaroufi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148607,
+  "name": "Nour Karoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 332547,
+  "name": "Ali Maaloul",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 872349,
+  "name": "Kevin Mondeko",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1427549,
+  "name": "Hichem Baccar",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919151,
+  "name": "Mohamed Salah Mhadhebi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634615,
+  "name": "Rayane Derbali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1011996,
+  "name": "Chaouki Ben Khader",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 822854,
+  "name": "Mohamad Loulou",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2057094,
+  "name": "Youssef Habchia",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1515558,
+  "name": "Ahmed Ajjal",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1198374,
+  "name": "Dahmen Aymen",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 906552,
+  "name": "Mohamed Hedi Gaaloul",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2053750,
+  "name": "Mohamed Ali Jamiaa",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2038916,
+  "name": "Mohamed Guesmi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2124692,
+  "name": "Mohamed Ben Ali",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222952,
+  "name": "Hasamadou Ouedraogo",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222951,
+  "name": "Rayen Chaaben",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850a"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018080,
+  "name": "Fares Belaili",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2174958,
+  "name": "Jihed Aloui",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018076,
+  "name": "Dhiaeddine Jebli",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018114,
+  "name": "Sofiane Ben Mansour",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919057,
+  "name": "Manoubi Haddad",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1467290,
+  "name": "Mohamed Amine Ammar",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1013827,
+  "name": "Yacine El Kassah",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2022948,
+  "name": "Amine Mesbah",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222194,
+  "name": "Patrick Mbarga Ngankou",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018073,
+  "name": "Anouar Debbiche",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2025798,
+  "name": "Ahmed Maawati",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222200,
+  "name": "Houssem Touati",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222235,
+  "name": "Aziz Belloumi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 967291,
+  "name": "Helmi Jouaida",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018085,
+  "name": "Ghassen Maatougui",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2022906,
+  "name": "Amenallah El Majhed",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 935078,
+  "name": "Mohamed Aziz Boucetta",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018113,
+  "name": "Oussama Hichri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018121,
+  "name": "Mohamed Firas Amri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018068,
+  "name": "Amir Mosbahi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 205608,
+  "name": "Moez Ben Cherifia",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634640,
+  "name": "Mohamed Nsibi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045459,
+  "name": "Aymen Jemai",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850c"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1410425,
+  "name": "Aouani Raki",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1516248,
+  "name": "Moussa Senghor",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1391997,
+  "name": "Mohamed Kante",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 887103,
+  "name": "Maher Ben Seghaier",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018353,
+  "name": "Nizar Smichi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2119535,
+  "name": "Mohamed Rayane Anane",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018421,
+  "name": "Mohamed Hassine",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1613034,
+  "name": "Aziz Bousbaai",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222960,
+  "name": "Mohamed Anane",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1504964,
+  "name": "Mohamed Dhaoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1116782,
+  "name": "Noureddine Al Gleib",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1899419,
+  "name": "Gideon Uche Goodlad",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 866121,
+  "name": "Mohamed Amine Ben Amor",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919251,
+  "name": "Fedi Ben Choug",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 918982,
+  "name": "Malek Baayou",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919172,
+  "name": "Walid Karoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1104610,
+  "name": "Jean Cedrik Gbo",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 880062,
+  "name": "Amri Yassine",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1612215,
+  "name": "Mokhles Chouchen",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1801702,
+  "name": "Mohamed Aziz Jebali",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018351,
+  "name": "Mohamed Amine Jebali",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634614,
+  "name": "Wassim Chihi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018352,
+  "name": "Mohamed Khalil Zid",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919152,
+  "name": "Nassim Hnid",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 906056,
+  "name": "Mohamed Cherif Camara",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919162,
+  "name": "Houssem Dagdoug",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1182110,
+  "name": "Salaheddine Ghedamsi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634638,
+  "name": "Najeh Ferjani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 866118,
+  "name": "Zied Boughattas",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1107547,
+  "name": "Ghofrane Naouali",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 359312,
+  "name": "Sabri Ben Hessen",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2038015,
+  "name": "Mohamed Rayane Landoulsi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2026614,
+  "name": "Mohamed Hssine",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2119538,
+  "name": "Sabeur",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217451,
+  "name": "Obah",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab8508"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1959999,
+  "name": "Anicet Ishimwe",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634613,
+  "name": "Baha Cherni",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018093,
+  "name": "Naman Keita",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634617,
+  "name": "Mohamed Hedi Hadouchi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018072,
+  "name": "Bechir Hasni",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018096,
+  "name": "Obaid Mekni",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2056453,
+  "name": "Adem Bounjeh",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634639,
+  "name": "Bechir Mkadem",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2068889,
+  "name": "Fares Labidi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2068890,
+  "name": "Fares Laabidi",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217444,
+  "name": "Seif Jabri",
+  "image": null,
+  "position": "Forwards",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1103423,
+  "name": "Mohamed Amine Ajimi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1997613,
+  "name": "Elyes Dhaoui",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018090,
+  "name": "Mohamed Aziz Taboubi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018081,
+  "name": "Hamza Houiji",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919190,
+  "name": "Mohamed Ali Ragoubi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 1634637,
+  "name": "Firas Fadhli",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018086,
+  "name": "Majd Hedhli",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018108,
+  "name": "Youssef Melki",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2064381,
+  "name": "Idriss Haboubi",
+  "image": null,
+  "position": "Midfielders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 919145,
+  "name": "Jasser Khemiri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018077,
+  "name": "Elyes Mejri",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018084,
+  "name": "Islem Chelghoumi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018098,
+  "name": "Rayane Hammami",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018067,
+  "name": "Amine Melki",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018069,
+  "name": "Aziz Gharbi",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018095,
+  "name": "Nassim Hosni",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2045467,
+  "name": "Aziz Knani",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2120460,
+  "name": "Rayen Derbeli",
+  "image": null,
+  "position": "Defenders",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018075,
+  "name": "Chahine Smaoui",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2018064,
+  "name": "Ahmed Fatnassi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2148641,
+  "name": "Ayoub Saidi",
+  "image": null,
+  "position": "Goalkeepers",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2033654,
+  "name": "Ali Desses Sissoko",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2033660,
+  "name": "Elyas Dhaoui",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2033661,
+  "name": "Charfeddine Aoun",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2033658,
+  "name": "Hedi Haddouchi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2124701,
+  "name": "Saidi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2152961,
+  "name": "Seif Jebri",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2217481,
+  "name": "Hassan Daghbougi",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+},
+{
+  "_id": 2222192,
+  "name": "Hamza Soumer",
+  "image": null,
+  "position": "Unknowns",
+  "team_id": {
+    "$oid": "6879135f09b81cb547ab850e"
+  },
+  "price": 6.5
+}]
