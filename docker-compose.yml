@@ -21,6 +21,8 @@ services:
       - MONGO_URI=mongodb://mongo:27017/fantazy_db
     depends_on:
       - mongo
+    # ensure Flask listens on all interfaces
+    command: python3 app.py --host 0.0.0.0
 
   nest-app:
     build: ./nest-app
@@ -29,9 +31,10 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - "MONGO_URL=mongodb://mongo:27017/fantazy_db"
-      - "JWT_SECRET=secret key"
+      - MONGO_URL=mongodb://mongo:27017/fantazy_db
+      - JWT_SECRET=secret key
     depends_on:
       - mongo
-    # Add a small delay to ensure mongo is ready
+      - flask-api
+    # small delay to ensure services are ready
     command: sh -c "sleep 10 && node --experimental-global-webcrypto dist/main.js"
