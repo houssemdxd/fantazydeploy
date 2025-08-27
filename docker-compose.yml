@@ -9,7 +9,8 @@ services:
       - "27017:27017"
     volumes:
       - ./mongo-data:/data/db
-      - ./mongo-backup:/docker-entrypoint-initdb.d:ro
+      - ./mongo-init:/docker-entrypoint-initdb.d:ro
+
 
   flask-api:
       build: ./flask-api
