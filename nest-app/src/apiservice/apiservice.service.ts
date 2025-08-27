@@ -32,7 +32,7 @@ console.log("this site called 0000000000000")
         let [hours, minutes] = event.event_time.split(':').map(Number);
 
         // Apply -1 hour
-        hours -= 1;
+        hours -= 0;
 
         // Apply +15 minutes
   

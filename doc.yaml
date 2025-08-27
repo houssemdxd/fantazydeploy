@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-data:/data/db
+      - ./mongo-backup:/docker-entrypoint-initdb.d:ro
+
+  flask-api:
+    build: ./flask-api
+    container_name: flask-api
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/fantazy_db
+      - FLASK_APP=app.py
+    depends_on:
+      - mongo
+    volumes:
+      - ./flask-api:/app
+    working_dir: /app/app
+    command: flask run --host=0.0.0.0 --port=5000 --no-reload
+
+
+  nest-app:
+    build: ./nest-app
+    container_name: nest-app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/fantazy_db
+      - JWT_SECRET=secret key
+    depends_on:
+      - mongo
+      - flask-api
+    command: sh -c "sleep 10 && node --experimental-global-webcrypto dist/main.js"
+
