@@ -127,6 +127,8 @@ async updateFixtureMachSofaNumber(roundId: number) {
 
   // 2. Get matches from the Flask API
   const matchesData = await this.apiService.getMatchesByRoundSofa(roundId);
+
+  console.log(matchesData)
 for (const fixture of fixtures) {
   const homeTeam = await this.teamModel.findById(fixture.homeTeam).exec();
   const awayTeam = await this.teamModel.findById(fixture.awayTeam).exec();
