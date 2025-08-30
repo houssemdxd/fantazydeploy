@@ -132,51 +132,47 @@ async getFixturesWithPlayerStatsByRound(roundId: string) {
 async getPlayerStatsByUser(userId: string) {
   // 1. Fetch all rounds sorted ascending by roundNumber
   const rounds = await this.roundModel.find().sort({ roundNumber: 1 }).lean();
-
   if (rounds.length === 0) {
     console.warn('No rounds found in DB');
     return [];
   }
-
+  
   // Get the latest round (current round)
   const currentRound = rounds[rounds.length - 1];
-
-
-  console.log("00000000000000000000000000000000000000000000000000000000000000"+currentRound._id)
+  
   // 2. Fetch all weekly teams of the user, sorted by roundNumber ascending (populate round)
   const weeklyTeams = await this.weeklyTeamModel
     .find({ user_id: new Types.ObjectId(userId) })
     .populate('round')
     .sort({ 'round.roundNumber': 1 })
     .lean();
-
+    
   if (weeklyTeams.length === 0) {
     console.warn('No weekly teams found for user:', userId);
     return [];
   }
-
+  
   // 3. Create a map from roundNumber to weeklyTeam for quick lookup
   const weeklyTeamMap = new Map<number, any>();
   for (const team of weeklyTeams) {
-    const roundObj = team.round as unknown as { _id: Types.ObjectId; roundNumber: number };
+    const roundObj = team.round as { _id: Types.ObjectId; roundNumber: number };
     if (roundObj?.roundNumber !== undefined) {
       weeklyTeamMap.set(roundObj.roundNumber, team);
     }
   }
-
+  
   const results = [];
-
   let lastKnownTeam = null;
-
+  
   // 4. Loop from round 1 to currentRound.roundNumber (all rounds)
   for (const round of rounds) {
     if (round.roundNumber > currentRound.roundNumber) break; // stop if round beyond currentRound
-
+    
     // Update lastKnownTeam if user has a team for this round
     if (weeklyTeamMap.has(round.roundNumber)) {
       lastKnownTeam = weeklyTeamMap.get(round.roundNumber);
     }
-
+    
     if (!lastKnownTeam) {
       // If no team at all so far, skip or push empty players
       results.push({
@@ -185,50 +181,71 @@ async getPlayerStatsByUser(userId: string) {
       });
       continue;
     }
-
+    
     // 5. Get fantasy players for the last known team (for the round)
     const fantasyPlayers = await this.fantasyTeamModel
       .find({ WeeklyTeam: lastKnownTeam._id })
       .lean();
-
+    
     // Extract player IDs
     const playerIds = fantasyPlayers.map(fp => fp.player_id);
-
-    // 6. Fetch PlayerStats for these players but **for the current round** (important!)
+    
+    // 6. Fetch PlayerStats for these players but *for the current round* (important!)
     const playerStats = await this.playerStatModel
       .find({
         round_id: round._id,        // round_id matches current round's _id here
         player_id: { $in: playerIds },
       })
       .lean();
-
-    // 7. Fetch player details for these player IDs
+    
+    // 7. Fetch player details for these player IDs with team population to get abvTeam
     const players = await this.playerModel
       .find({ _id: { $in: playerIds } })
+      .populate('team_id', 'abvTeam') // Populate team_id to get abvTeam
       .lean();
-
-    // 8. Merge player info with their score for this round
+    
+    // 8. Create a map of fantasy player settings for quick lookup
+    const fantasyPlayerMap = new Map();
+    fantasyPlayers.forEach(fp => {
+      fantasyPlayerMap.set(fp.player_id.toString(), {
+        isBench: fp.isBench,
+        isCaptain: fp.isCaptain,
+        isViceCaptain: fp.isViceCaptain
+      });
+    });
+    
+    // 9. Merge player info with their score for this round and fantasy settings
     const playersWithStats = players.map(player => {
-      const stat = playerStats.find(ps => ps.player_id === player._id);
+      const stat = playerStats.find(ps => ps.player_id.toString() === player._id.toString());
+      const fantasySettings = fantasyPlayerMap.get(player._id.toString()) || {
+        isBench: false,
+        isCaptain: false,
+        isViceCaptain: false
+      };
+      
       return {
         _id: player._id,
         name: player.name,
         position: player.position,
         image: player.image,
+        abvTeam: (player.team_id as any)?.abvTeam || '', // Extract abvTeam from populated team
         score: stat?.score ?? 0,
-        assist : stat.assist
+        isBench: fantasySettings.isBench,
+        isCaptain: fantasySettings.isCaptain,
+        isViceCaptain: fantasySettings.isViceCaptain
       };
     });
-
-    // 9. Add to results
+    
+    // 10. Add to results
     results.push({
       round: round.roundNumber,
       players: playersWithStats,
     });
   }
-
+  
   return results;
 }
+
 //------------------------------------------------------------------------------------------------------------------------
 async  getLineup(match_id) {
   try {
@@ -1034,23 +1051,41 @@ async saveFantasyTeam(
   return null;
 }
 
-async updateLivePlayerStatsFromApi(round:number) {
+async updateLivePlayerStatsFromApi(round: number) {
   console.log('[updateLivePlayerStatsFromApi] Starting update...');
 
-  const matches = await this.apiService.getMatchesByRoundSofa(round);
-  if (!Array.isArray(matches)) {
-    console.log('Invalid matches list format');
-    return;
-  }
-
   try {
+    // Get the latest round
     const currentRound = await this.roundModel.findOne().sort({ roundNumber: -1 });
-    if (!currentRound) console.log('No current round found');
+    if (!currentRound) {
+      console.log('No current round found');
+      return;
+    }
 
-    const fixtures = await this.fixtureModel.find({ round: currentRound._id });
+    // Get all fixtures from the latest round
+        const today = new Date().toISOString().split('T')[0]; // e.g. "2025-08-30"
 
+        const fixtures = await this.fixtureModel.find({
+          round: currentRound._id,
+          date: today
+        });
+
+    // Check if at least one fixture is missing sofamatchId
+    const needsApiCall = fixtures.some(f => !f.sofamatchId);
+
+    // Call API only if needed
+    let matches: any[] = [];
+    if (needsApiCall) {
+      matches = await this.apiService.getMatchesByRoundSofa(round);
+      if (!Array.isArray(matches)) {
+        console.log('Invalid matches list format');
+        return;
+      }
+    }
+
+    // Process all fixtures (with or without match id)
     for (const fixture of fixtures) {
-      await this.processFixture(fixture, matches, currentRound._id);
+      await this.processFixture(fixture, fixture.sofamatchId, currentRound._id);
     }
 
     console.log('[updateLivePlayerStatsFromApi] Finished updating player stats.');
@@ -1061,33 +1096,30 @@ async updateLivePlayerStatsFromApi(round:number) {
 
 
 
-private async processFixture(fixture: any, matches: any[], roundId: Types.ObjectId) {
-  const [homeTeamDoc, awayTeamDoc] = await Promise.all([
-    this.teamModel.findById(fixture.homeTeam),
-    this.teamModel.findById(fixture.awayTeam),
-  ]);
+  private async processFixture(fixture: any, match: string, roundId: Types.ObjectId) {
+    const [homeTeamDoc, awayTeamDoc] = await Promise.all([
+      this.teamModel.findById(fixture.homeTeam),
+      this.teamModel.findById(fixture.awayTeam),
+    ]);
 
-  if (!homeTeamDoc || !awayTeamDoc) {
-    console.warn(`Missing team data for fixture ${fixture._id}`);
-    return;
+    if (!homeTeamDoc || !awayTeamDoc) {
+      console.warn(`Missing team data for fixture ${fixture._id}`);
+      return;
+    }
+
+    await this.updateFixtureSofaId(fixture, match);
+
+    if (!fixture.Lined) {
+      await this.processLineup(fixture, match, roundId);
+    }
+
+    await this.processLiveEvents(fixture, match, homeTeamDoc.team_id.toString(), awayTeamDoc.team_id.toString(), roundId);
   }
-
-  const match = this.findApiMatch(matches, homeTeamDoc, awayTeamDoc);
-  if (!match) {
-    console.log(`No API match found for fixture ${fixture._id}`);
-    return;
-  }
-
-  await this.updateFixtureSofaId(fixture, match);
-
-  if (!fixture.Lined) {
-    await this.processLineup(fixture, match.match_id, roundId);
-  }
-
-  await this.processLiveEvents(fixture, match.match_id, homeTeamDoc.team_id.toString(), awayTeamDoc.team_id.toString(), roundId);
-}
 
 private findApiMatch(matches: any[], homeTeamDoc: any, awayTeamDoc: any) {
+  console.log(matches)
+  console.log(homeTeamDoc)
+  console.log(awayTeamDoc)
   return matches.find(
     m =>
       (m.home_team_code === homeTeamDoc.team_sofa_id && m.away_team_code === awayTeamDoc.team_sofa_id) ||
@@ -1103,6 +1135,11 @@ private async updateFixtureSofaId(fixture: any, match: any) {
 }
 
 private async processLineup(fixture: any, matchId: string, roundId: Types.ObjectId) {
+
+    if (fixture.Lined) {
+      console.log(`⏭️ Skipping lineup for fixture ${fixture._id} (already lined)`);
+      return;
+    }
   const lineupResult = await this.apiService.getLineupsofa(matchId);
 
   if (!lineupResult) return;
@@ -1164,7 +1201,7 @@ private async processLiveEvents(fixture: any, matchId: string, homeCode: string,
     await this.savePlayerStats(Number(playerId), updates, roundId);
   }
 }
-private extractPlayerUpdates(apiData: any) {
+private async extractPlayerUpdates(apiData: any) {
   const playerUpdates: Record<number, any> = {};
 
   const initPlayerUpdate = (playerId: number) => {
@@ -1191,12 +1228,12 @@ private extractPlayerUpdates(apiData: any) {
       if (!playerId) continue;
 
       initPlayerUpdate(playerId);
-
+     const p=  await this.playerModel.findById(playerId).exec()
       switch (event.event_type) {
         case 'Goal':
         case 'Penalty':
           playerUpdates[playerId].totalGoals += 1;
-          playerUpdates[playerId].totalScore += 5; // or use getGoalPointsByPosition
+          playerUpdates[playerId].totalScore += this.getGoalPointsByPosition( p.position)
           playerUpdates[playerId].isPlayed = true;
           break;
         case 'Assistance':

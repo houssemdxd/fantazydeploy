@@ -49,6 +49,15 @@ constructor(
 async getSimplifiedFixtures(journeeRoundNumber: number) {
   const response = await this.getSampleFixturesResponse();
   console.log(response)
+
+
+  // If response or response.result is missing, return empty array
+  if (!response || !Array.isArray(response.result)) {
+    console.warn("⚠️ No fixtures found in API response");
+    return [];
+  }
+
+
   // Filter fixtures for this specific round
   return response.result
     .filter(fixture => {
@@ -127,11 +136,14 @@ nextWeek.setDate(today.getDate() + 7);
 
  }
 async updateFixtureMachSofaNumber(roundId: number) {
+  console.log("inside1")
   // 1. Get all fixtures of the last round
   const fixtures = await this.getFixturesOfLastRound();
+  console.log("inside2")
 
   // 2. Get matches from the Flask API
   const matchesData = await this.apiService.getMatchesByRoundSofa(roundId);
+  console.log("inside3")
 
   console.log(matchesData)
 for (const fixture of fixtures) {
@@ -157,13 +169,6 @@ for (const fixture of fixtures) {
 
   console.log("Finished updating all fixtures.");
 }
-
-
-
-
-
-
-
 
 async getFixturesOfLastRound() {
   // 1️⃣ Get the round with the highest roundNumber

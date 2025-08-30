@@ -51,17 +51,17 @@ async getFixtures(from: string, to: string, countryId: number) {
     return event;
     });
   }
-  return data;
+  //return data;
   return {
     "success": 1,
     "result": [{
         "event_key": 1637721,
-        "event_date": "2025-08-28",
-        "event_time": "17:30",
-        "event_home_team": "Soliman",
-        "home_team_key": 7617,
-        "event_away_team": "Stade Tunisien",
-        "away_team_key": 7618,
+        "event_date": "2025-08-30",
+        "event_time": "18:54",
+        "event_home_team": "Zarzis",
+        "home_team_key": 7605,
+        "event_away_team": "Ben Guerdane",
+        "away_team_key": 7613,
         "event_halftime_result": "0 - 0",
         "event_final_result": "0 - 0",
         "event_ft_result": "0 - 0",
@@ -70,7 +70,7 @@ async getFixtures(from: string, to: string, countryId: number) {
         "country_name": "Tunisia",
         "league_name": "Ligue 1",
         "league_key": 317,
-        "league_round": "Round 3",
+        "league_round": "Round 4",
         "league_season": "2025\/2026",
         "event_live": "0",
         "event_stadium": "Stade de Soliman (Soliman (Sulayman))",
@@ -86,54 +86,7 @@ async getFixtures(from: string, to: string, countryId: number) {
         "stage_name": "Current",
         "league_group": null,
         "goalscorers": []},
-        {
-        "event_key": 1637717,
-        "event_date": "2025-08-26",
-        "event_time": "17:30",
-        "event_home_team": "Bizertin",
-        "home_team_key": 7623,
-        "event_away_team": "Sfax",
-        "away_team_key": 7614,
-        "event_halftime_result": "1 - 0",
-        "event_final_result": "1 - 1",
-        "event_ft_result": "1 - 1",
-        "event_penalty_result": "",
-        "event_status": "Finished",
-        "country_name": "Tunisia",
-        "league_name": "Ligue 1",
-        "league_key": 317,
-        "league_round": "Round 2",
-        "league_season": "2025\/2026",
-        "event_live": "0",
-        "event_stadium": "Stade du 15 Octobre (Bizerte (Banzart))",
-        "event_referee": "Khaled Gouider",
-        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7623_bizertin.jpg",
-        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7614_cs-sfaxien.jpg",
-        "event_country_key": 110},
-        {
-        "event_key": 1637717,
-        "event_date": "2025-08-29",
-        "event_time": "17:30",
-        "event_home_team": "Bizertin",
-        "home_team_key": 7623,
-        "event_away_team": "Sfax",
-        "away_team_key": 7614,
-        "event_halftime_result": "1 - 0",
-        "event_final_result": "1 - 1",
-        "event_ft_result": "1 - 1",
-        "event_penalty_result": "",
-        "event_status": "Finished",
-        "country_name": "Tunisia",
-        "league_name": "Ligue 1",
-        "league_key": 317,
-        "league_round": "Round 4",
-        "league_season": "2025\/2026",
-        "event_live": "0",
-        "event_stadium": "Stade du 15 Octobre (Bizerte (Banzart))",
-        "event_referee": "Khaled Gouider",
-        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7623_bizertin.jpg",
-        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7614_cs-sfaxien.jpg",
-        "event_country_key": 110}
+        
 
     ]
 }
@@ -146,7 +99,7 @@ async  getMatches(): Promise<any[]> {
   const matches: any[] = [];
 
   try {
-    const response = await fetch('http://flask-api:5000matches');
+    const response = await fetch('http://127.0.0.1:5000matches');
 
     if (!response.ok) {
       throw new Error(`API request failed with status: ${response.status}`);
@@ -167,12 +120,16 @@ async  getMatches(): Promise<any[]> {
 
 async getMatchesByRoundSofa(roundId: number) {
     try {
+      console.log("falsk1")
       // Replace with your Flask server URL and endpoint
-      const url = `http://flask-api:5000/matches?round=${roundId}`;
-      
+      const url = `http://127.0.0.1:5000/matches?round=${roundId}`;
+            console.log("falsk2")
+
       // Call the Flask API
       const response = await firstValueFrom(this.httpService.get(url));
-      
+            console.log("falsk3")
+
+      console.log(response)
       // Return the JSON data from Flask
       return response.data;
     } catch (error) {
@@ -196,7 +153,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
 
   async getLineupsofa(matchId: string) {
-    const baseUrl = 'http://flask-api:5000/lineup'; // Flask API URL
+    const baseUrl = 'http://127.0.0.1:5000/lineup'; // Flask API URL
     const url = `${baseUrl}/${matchId}`;
 
     try {
@@ -216,7 +173,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
   async getLiveUpdatefromsofa(matchId: string, homeCode: string, awayCode: string) {
     try {
-      const url = 'http://flask-api:5000/events';
+      const url = 'http://127.0.0.1:5000/events';
       const response = await firstValueFrom(
         this.httpService.get(url, {
           params: {

@@ -30,7 +30,7 @@ export class FantasyTeamController {
 @Get('liveupdates')
   async liveupdates() {
    
-    return this.fantasyTeamService.updateLivePlayerStatsFromApi(3);
+    return this.fantasyTeamService.updateLivePlayerStatsFromApi(4);
   }
 
 

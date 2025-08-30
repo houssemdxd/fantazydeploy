@@ -152,7 +152,10 @@ export class RoundSchedulerService {
 
         return;
       }
+           console.log("1111111111111111111111111111111111111111111111111111111")
+
      await this.fixtureService.updateFixtureMachSofaNumber(journee.round)
+     console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 var fixturesp = await this.fixtureService.getFixturesOfLastRound()
 // 2. Loop fixtures and process only those not lined
   for (const fixture of fixturesp) {
@@ -304,7 +307,7 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
       const finalHomeCode = homeCode || '7600';
       const finalAwayCode = awayCode || '7611';
 
-      const apiUrl = `http://flask-api:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
+      const apiUrl = `http://127.0.0.1:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
       this.logger.log(`[getMockLiveScores] Calling API: ${apiUrl}`);
 
       const response = await fetch(apiUrl);
@@ -560,6 +563,16 @@ private escapeRegex(text: string): string {
 }
 private async processFixtureLineup1(fixture: any) {
   try {
+
+
+      if (fixture.Lined) {
+      console.log(`⏭️ Skipping lineup for fixture ${fixture._id} (already lined)`);
+      return;
+    }
+
+
+
+    console.log(fixture)
     console.log(`⚡ Processing lineup for fixture ${fixture._id} (matchId: ${fixture.sofamatchId})`);
 
     // Fetch lineup from API

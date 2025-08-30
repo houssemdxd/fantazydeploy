@@ -152,15 +152,18 @@ async syncFixtures() {
  async getSampleFixturesResponse() {
   
 
-   
+     const startDate = new Date();
+
 const today = new Date();
+startDate.setDate(today.getDate() - 3);
+  const startDateStr = startDate.toISOString().split('T')[0];
 const todayStr = today.toISOString().split('T')[0];
 const countryId=110
 const nextWeek = new Date();
 nextWeek.setDate(today.getDate() + 7);
 const nextWeekStr = nextWeek.toISOString().split('T')[0];
     
- return await this.apiService.getFixtures(todayStr, nextWeekStr, countryId);
+ return await this.apiService.getFixtures(startDateStr, nextWeekStr, countryId);
 
 
  }
