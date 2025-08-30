@@ -1062,6 +1062,8 @@ async updateLivePlayerStatsFromApi(round: number) {
       return;
     }
 
+    console.log(currentRound)
+
     // Get all fixtures from the latest round
         const today = new Date().toISOString().split('T')[0]; // e.g. "2025-08-30"
 
@@ -1069,6 +1071,8 @@ async updateLivePlayerStatsFromApi(round: number) {
           round: currentRound._id
          // date: today
         });
+
+            console.log(fixtures)
 
     // Check if at least one fixture is missing sofamatchId
     const needsApiCall = fixtures.some(f => !f.sofamatchId);
@@ -1196,7 +1200,7 @@ private async processLiveEvents(fixture: any, matchId: string, homeCode: string,
   if (!apiData?.halves?.length) return;
 
   const playerUpdates = this.extractPlayerUpdates(apiData);
-
+    console.log(playerUpdates)
   for (const [playerId, updates] of Object.entries(playerUpdates)) {
     await this.savePlayerStats(Number(playerId), updates, roundId);
   }
