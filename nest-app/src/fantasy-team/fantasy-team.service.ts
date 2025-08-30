@@ -1199,7 +1199,7 @@ private async processLiveEvents(fixture: any, matchId: string, homeCode: string,
   const apiData = await this.apiService.getLiveUpdatefromsofa(matchId, homeCode, awayCode);
   if (!apiData?.halves?.length) return;
 
-  const playerUpdates = this.extractPlayerUpdates(apiData);
+  const playerUpdates = await this.extractPlayerUpdates(apiData);
     console.log(playerUpdates)
   for (const [playerId, updates] of Object.entries(playerUpdates)) {
     await this.savePlayerStats(Number(playerId), updates, roundId);
