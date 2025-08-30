@@ -155,7 +155,7 @@ async getPlayerStatsByUser(userId: string) {
   // 3. Create a map from roundNumber to weeklyTeam for quick lookup
   const weeklyTeamMap = new Map<number, any>();
   for (const team of weeklyTeams) {
-    const roundObj = team.round as { _id: Types.ObjectId; roundNumber: number };
+    const roundObj = team.round as unknown as { _id: Types.ObjectId; roundNumber: number };
     if (roundObj?.roundNumber !== undefined) {
       weeklyTeamMap.set(roundObj.roundNumber, team);
     }
