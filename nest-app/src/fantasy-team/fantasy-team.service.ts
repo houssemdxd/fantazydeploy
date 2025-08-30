@@ -1066,8 +1066,8 @@ async updateLivePlayerStatsFromApi(round: number) {
         const today = new Date().toISOString().split('T')[0]; // e.g. "2025-08-30"
 
         const fixtures = await this.fixtureModel.find({
-          round: currentRound._id,
-          date: today
+          round: currentRound._id
+         // date: today
         });
 
     // Check if at least one fixture is missing sofamatchId
