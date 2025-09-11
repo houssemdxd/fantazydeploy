@@ -126,7 +126,7 @@ async  getMatches(): Promise<any[]> {
   const matches: any[] = [];
 
   try {
-    const response = await fetch('http://flask-api:5000matches');
+    const response = await fetch('http://flask-api:5000/matches');
 
     if (!response.ok) {
       throw new Error(`API request failed with status: ${response.status}`);
@@ -147,6 +147,7 @@ async  getMatches(): Promise<any[]> {
 
 async getMatchesByRoundSofa(roundId: number) {
     try {
+      console.log("the round id is"+roundId)
       console.log("falsk1")
       // Replace with your Flask server URL and endpoint
       const url = `http://flask-api:5000/matches?round=${roundId}`;
