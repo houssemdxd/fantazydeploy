@@ -7,7 +7,7 @@ export class ApiserviceService {
 
   private readonly baseUrl = 'https://apiv2.allsportsapi.com/football/';
   private readonly apiKey =
-    '4afbfa2169ee0d24ff8c70040f75aca55bc0974fbe6659b625e134a7ce02b77c';
+    '05aa49318dabb34ba97ed48297bd47ef18b588d66e7b4849b6144b4553152c02';
 
   constructor(private readonly httpService: HttpService) {}
 async getFixtures(from: string, to: string, countryId: number) {
@@ -51,13 +51,14 @@ async getFixtures(from: string, to: string, countryId: number) {
     return event;
     });
   }
-  //return data;
-  return {
+  console.log(data);
+    return data;
+  /*return {
     "success": 1,
     "result": [{
         "event_key": 1637721,
-        "event_date": "2025-08-30",
-        "event_time": "18:54",
+        "event_date": "2025-09-03",
+        "event_time": "14:14",
         "event_home_team": "Zarzis",
         "home_team_key": 7605,
         "event_away_team": "Ben Guerdane",
@@ -73,23 +74,49 @@ async getFixtures(from: string, to: string, countryId: number) {
         "league_round": "Round 4",
         "league_season": "2025\/2026",
         "event_live": "0",
-        "event_stadium": "Stade de Soliman (Soliman (Sulayman))",
-        "event_referee": "",
-        "home_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7617_soliman.jpg",
-        "away_team_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/7618_stade-tunisien.jpg",
-        "event_country_key": 110,
-        "league_logo": null,
-        "country_logo": "https:\/\/apiv2.allsportsapi.com\/logo\/logo_country\/110_tunisia.png",
-        "event_home_formation": "",
-        "event_away_formation": "",
-        "fk_stage_key": 1653,
-        "stage_name": "Current",
-        "league_group": null,
-        "goalscorers": []},
-        
+        },
+        {
+        "event_key": 1637721,
+        "event_date": "2025-09-03",
+        "event_time": "14:20",
+        "event_home_team": "etoile",
+        "home_team_key": 7612,
+        "event_away_team": "Gabes",
+        "away_team_key": 7600,
+        "event_halftime_result": "0 - 0",
+        "event_final_result": "0 - 0",
+        "event_ft_result": "0 - 0",
+        "event_penalty_result": "",
+        "event_status": "Finished",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        },{
+        "event_key": 1637721,
+        "event_date": "2025-09-03",
+        "event_time": "15:55",
+        "event_home_team": "etoile",
+        "home_team_key": 7612,
+        "event_away_team": "Gabes",
+        "away_team_key": 7600,
+        "event_halftime_result": "0 - 0",
+        "event_final_result": "0 - 0",
+        "event_ft_result": "0 - 0",
+        "event_penalty_result": "",
+        "event_status": "Finished",
+        "country_name": "Tunisia",
+        "league_name": "Ligue 1",
+        "league_key": 317,
+        "league_round": "Round 4",
+        "league_season": "2025\/2026",
+        "event_live": "0",
+        },
 
     ]
-}
+}*/
 }
 
 
@@ -99,7 +126,7 @@ async  getMatches(): Promise<any[]> {
   const matches: any[] = [];
 
   try {
-    const response = await fetch('http://flask-api:5000matches');
+    const response = await fetch('http://127.0.0.1:5000matches');
 
     if (!response.ok) {
       throw new Error(`API request failed with status: ${response.status}`);
@@ -122,7 +149,7 @@ async getMatchesByRoundSofa(roundId: number) {
     try {
       console.log("falsk1")
       // Replace with your Flask server URL and endpoint
-      const url = `http://flask-api:5000/matches?round=${roundId}`;
+      const url = `http://127.0.0.1:5000/matches?round=${roundId}`;
             console.log("falsk2")
 
       // Call the Flask API
@@ -153,7 +180,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
 
   async getLineupsofa(matchId: string) {
-    const baseUrl = 'http://flask-api:5000/lineup'; // Flask API URL
+    const baseUrl = 'http://127.0.0.1:5000/lineup'; // Flask API URL
     const url = `${baseUrl}/${matchId}`;
 
     try {
@@ -173,7 +200,7 @@ async getMatchesByRoundSofa(roundId: number) {
 
   async getLiveUpdatefromsofa(matchId: string, homeCode: string, awayCode: string) {
     try {
-      const url = 'http://flask-api:5000/events';
+      const url = 'http://127.0.0.1:5000/events';
       const response = await firstValueFrom(
         this.httpService.get(url, {
           params: {

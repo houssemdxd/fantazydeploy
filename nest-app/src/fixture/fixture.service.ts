@@ -33,8 +33,8 @@ constructor(
     return `This action returns all fixture`;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} fixture`;
+  findOne(id: any) {
+  return this.fixtureModel.findOne({ _id: id }).exec();
   }
 
   update(id: number, updateFixtureDto: UpdateFixtureDto) {
@@ -123,7 +123,7 @@ async createFixturesFromApi(journeeRoundNumber: number): Promise<any[]> {
   return savedFixtures;
 }
 
- async getSampleFixturesResponse() {
+async getSampleFixturesResponse() {
 
 const today = new Date();
 const todayStr = today.toISOString().split('T')[0];

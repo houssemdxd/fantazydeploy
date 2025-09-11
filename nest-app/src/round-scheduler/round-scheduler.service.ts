@@ -159,9 +159,15 @@ export class RoundSchedulerService {
 var fixturesp = await this.fixtureService.getFixturesOfLastRound()
 // 2. Loop fixtures and process only those not lined
   for (const fixture of fixturesp) {
+
+    await this.processCleanSheet(fixture);
+
     if (!fixture.Lined) {
+
       console.log(fixture)
+
     } else {
+
       console.log(`Fixture ${fixture._id} already lined, skipping.`);
     }
   }
@@ -173,8 +179,8 @@ var fixturesp = await this.fixtureService.getFixturesOfLastRound()
           .tz(`${fixture.date} ${fixture.eventTime}`, 'YYYY-MM-DD HH:mm', 'Africa/Tunis')
           .toDate();
         const now = new Date();
-const expiryTime = moment(matchTime).add(2, "hours").toDate();
-const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
+          const expiryTime = moment(matchTime).add(2, "hours").toDate();
+          const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
       console.log("9");
 
         if (now > expiryTime) {
@@ -212,18 +218,20 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
               } catch (err) {
                 this.logger.error(`🔥 Error in live update loop: ${err.message}`);
               }
-            },20 * 1000);
+            },5*60 * 1000);
 
-            const stopDuration = 60*60*2 * 1000;
+            const stopDuration = 3600*2*1000;
           setTimeout(async () => {
   clearInterval(interval);
   this.logger.log(`🛑 Stopped live updates: ${fixture.homeTeam} vs ${fixture.awayTeam}`);
 
   try {
-    const lastRoundFixtures = await this.fixtureService.getFixturesOfLastRound();
-    for (const fx of lastRoundFixtures) {
-      await this.processCleanSheet(fx);
-    }
+   // const lastRoundFixtures = await this.fixtureService.getFixturesOfLastRound();
+    //for (const fx of lastRoundFixtures) {
+    console.log(fixture)
+    const cleanncheatFixture = this.fixtureService.findOne(fixture._id)
+      await this.processCleanSheet(cleanncheatFixture);
+   // }
   } catch (err) {
     this.logger.error(`🔥 Error processing clean sheets: ${err.message}`);
   }
@@ -231,7 +239,7 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
         // ✅ Fixture finished, check if all are done
         this.activeFixturesCount--;
         if (this.activeFixturesCount === 0) {
-          this.logger.log(`✅ Completed Journee ${journee.round}`);
+          this.logger.log(` Completed Journee ${journee.round}`);
            journee.compleated = true;
             await journee.save();
 
@@ -243,7 +251,7 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
             } catch (err) {
               this.logger.error(`🔥 Error updating fantasy stats: ${err.message}`);
             }
-          },  10 * 1000); // every 10 minutes
+          },  2*60 * 1000); // every 10 minutes
 
           // ⏰ After 1 hour, stop updates and schedule next journee
           setTimeout(async () => {
@@ -252,7 +260,7 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
             clearInterval(updateInterval);
             this.logger.log(`⏰ Scheduling Journee ${journee.round + 1} (1h after completion)`);
             await this.scheduleNextJournee();}
-          }, 60 *60 * 1000); // 1 hour
+          }, 5*60 * 1000); // 1 hour
         }
       }, stopDuration);
 
@@ -280,20 +288,29 @@ const scheduleTime = moment(matchTime).subtract(0, 'minutes').toDate();
 
   private async processCleanSheet(fx) {
     this.logger.log(`Processing fixture: ${fx.matchId}, ${fx.homeTeam} vs ${fx.awayTeam}`);
-    if (!fx.sofamatchId || !fx.homeTeam || !fx.awayTeam) return;
 
+    if (!fx.sofamatchId || !fx.homeTeam || !fx.awayTeam) return;
+console.log("process clean cheet 1")
     const [homeTeamDoc, awayTeamDoc] = await Promise.all([
       this.teamModel.findById(fx.homeTeam),
       this.teamModel.findById(fx.awayTeam),
     ]);
+console.log("process clean cheet 2")
+
 
     if (!homeTeamDoc || !awayTeamDoc) return;
+console.log("process clean cheet 3")
 
     const apiResponse = await this.apiService.getLiveUpdatefromsofa(
       fx.sofamatchId,
       homeTeamDoc.team_id.toString(),
       awayTeamDoc.team_id.toString(),
     );
+    console.log("process clean cheet 4")
+
+    console.log("api response of cleanchaet is "+apiResponse)
+
+
 
     const homeClean = apiResponse.match_info?.teams?.home_cleancheat ?? false;
     const awayClean = apiResponse.match_info?.teams?.away_cleancheat ?? false;

@@ -148,14 +148,13 @@ async syncFixtures() {
 }
 
   // Dummy function for sample data
- 
- async getSampleFixturesResponse() {
+  async getSampleFixturesResponse() {
   
 
-     const startDate = new Date();
+const startDate = new Date();
 
 const today = new Date();
-startDate.setDate(today.getDate() - 3);
+startDate.setDate(today.getDate() );
   const startDateStr = startDate.toISOString().split('T')[0];
 const todayStr = today.toISOString().split('T')[0];
 const countryId=110

@@ -127,6 +127,46 @@ async getFixturesWithPlayerStatsByRound(roundId: string) {
 
 
 
+async getAllRounds() {
+  return await this.roundModel.find().exec();
+}
+
+
+
+async getAllPlayerStatsByRound(roundId: string) {
+  const stats = await this.playerStatModel.find({
+    round_id: new Types.ObjectId(roundId),
+  }).exec();
+
+  const results = [];
+  for (const stat of stats) {
+    // find player manually using the numeric id
+    const player = await this.playerModel.findOne({ _id: stat.player_id }).exec();
+    const team = player ? await this.teamModel.findById(player.team_id).exec() : null;
+
+    results.push({
+      player_id: stat.player_id,                  // keep number
+      player_name: player?.name || null,
+      team_id: team?._id?.toString() || null,
+      team_name: team?.name || null,
+      round_id: stat.round_id.toString(),
+      goals: stat.goals ?? 0,
+      yellowCard: stat.yellowCard ?? false,
+      redCard: stat.redCard ?? false,
+      substituted: stat.substituted ?? false,
+      score: stat.score ?? 0,
+      isPlayed: stat.isPlayed ?? false,
+      assist: stat.assist ?? 0,
+      start: stat.start ?? false,
+      cleancheat: stat.cleancheat ?? false,
+      lineupBonus: stat.lineupBonus ?? 0,
+    });
+  }
+
+  return results;
+}
+
+
 
 
 async getPlayerStatsByUser(userId: string) {
@@ -505,7 +545,7 @@ async calculateScore(userId: string): Promise<void> {
     return 
   }
 
-  console.log(fantasyTeam)
+  //console.log(fantasyTeam)
   let totalScore = 0;
 
 var currentRound =  this.roundModel
@@ -1072,7 +1112,7 @@ async updateLivePlayerStatsFromApi(round: number) {
          // date: today
         });
 
-            console.log(fixtures)
+          //  console.log(fixtures)
 
     // Check if at least one fixture is missing sofamatchId
     const needsApiCall = fixtures.some(f => !f.sofamatchId);
@@ -1200,7 +1240,7 @@ private async processLiveEvents(fixture: any, matchId: string, homeCode: string,
   if (!apiData?.halves?.length) return;
 
   const playerUpdates = await this.extractPlayerUpdates(apiData);
-    console.log(playerUpdates)
+   // console.log(playerUpdates)
   for (const [playerId, updates] of Object.entries(playerUpdates)) {
     await this.savePlayerStats(Number(playerId), updates, roundId);
   }

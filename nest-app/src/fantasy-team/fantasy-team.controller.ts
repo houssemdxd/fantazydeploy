@@ -9,6 +9,20 @@ import { FixtureService } from 'src/fixture/fixture.service';
 export class FantasyTeamController {
   constructor(private readonly fantasyTeamService: FantasyTeamService,
   ) {}
+@Get("rounds")
+  async getAllRounds() {
+    return this.fantasyTeamService.getAllRounds();
+  }
+
+
+  @Get('round/:roundId/player-stats')
+  async getAllPlayerStatsByRound(@Param('roundId') roundId: string) {
+    return this.fantasyTeamService.getAllPlayerStatsByRound(roundId);
+  }
+
+
+
+
 
 @Post(':userId/update')
   async updateFantasyTeam(
