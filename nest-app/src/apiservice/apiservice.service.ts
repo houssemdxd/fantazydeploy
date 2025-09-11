@@ -160,11 +160,13 @@ async getMatchesByRoundSofa(roundId: number) {
       console.log(response)
       // Return the JSON data from Flask
       return response.data;
-    } catch (error) {
-      throw new Error(
-        `Error fetching data from Flask API: ${error.response?.status} - ${error.response?.statusText}`,
-      );
-    }
+   } catch (error: any) {
+  console.error('Full error object:', error);
+  throw new Error(
+    `Error fetching data from Flask API: ${error.response?.status ?? 'NO STATUS'} - ${error.response?.statusText ?? 'NO STATUS TEXT'}`
+  );
+}
+
   }
 
 
