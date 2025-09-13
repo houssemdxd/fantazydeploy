@@ -112,7 +112,8 @@ async createFixturesFromApi(journeeRoundNumber: number): Promise<any[]> {
         league: f.league,
         event_status: f.event_status,
         round: latestRound._id,
-        // 🚫 no matchId anymore
+        sofamatchId : ""
+        //🚫 no matchId anymore
       });
       await fixtureDoc.save();
     }
@@ -126,6 +127,8 @@ async createFixturesFromApi(journeeRoundNumber: number): Promise<any[]> {
 async getSampleFixturesResponse() {
 
 const today = new Date();
+  today.setDate(today.getDate() - 4);
+
 const todayStr = today.toISOString().split('T')[0];
 const countryId=110
 const nextWeek = new Date();

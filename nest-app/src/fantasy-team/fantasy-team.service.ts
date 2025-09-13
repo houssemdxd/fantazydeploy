@@ -1091,6 +1091,11 @@ async saveFantasyTeam(
   return null;
 }
 
+
+
+
+
+
 async updateLivePlayerStatsFromApi(round: number) {
   console.log('[updateLivePlayerStatsFromApi] Starting update...');
 
@@ -1109,7 +1114,7 @@ async updateLivePlayerStatsFromApi(round: number) {
 
         const fixtures = await this.fixtureModel.find({
           round: currentRound._id
-         // date: today
+        
         });
 
           //  console.log(fixtures)
@@ -1120,15 +1125,46 @@ async updateLivePlayerStatsFromApi(round: number) {
     // Call API only if needed
     let matches: any[] = [];
     if (needsApiCall) {
+      console.log("i need api call ")
       matches = await this.apiService.getMatchesByRoundSofa(round);
       if (!Array.isArray(matches)) {
         console.log('Invalid matches list format');
         return;
+      }else
+      {
+      console.log("000000000000000000000000000000000000000000000000000000")
+
+         for (const fixture of fixtures) {
+          console.log("0000000000000000001111111000000000000000000000000")
+          console.log("the fixture est "+fixture.sofamatchId)
+            if  (fixture.sofamatchId.length==0)
+            {
+              console.log("sofa match is null")
+               var hometeam =await  this.teamModel.findById(fixture.homeTeam).exec()
+              var awayteam = await this.teamModel.findById(fixture.awayTeam).exec()
+              var matchsofaid = await this.findApiMatch(matches,hometeam,awayteam)
+
+              console.log(hometeam)
+              console.log(awayteam)
+              console.log(matchsofaid)
+                          await this.fixtureModel.updateOne(
+                            { sofamatchId: matchsofaid },   // filter: find fixture with this ID
+                            { $set: { ...fixture } },       // update: set new values from fixture
+                          );
+
+            }
+
+         }
       }
     }
 
     // Process all fixtures (with or without match id)
     for (const fixture of fixtures) {
+
+
+
+
+
       await this.processFixture(fixture, fixture.sofamatchId, currentRound._id);
     }
 
@@ -1164,12 +1200,15 @@ private findApiMatch(matches: any[], homeTeamDoc: any, awayTeamDoc: any) {
   console.log(matches)
   console.log(homeTeamDoc)
   console.log(awayTeamDoc)
+
   return matches.find(
     m =>
       (m.home_team_code === homeTeamDoc.team_sofa_id && m.away_team_code === awayTeamDoc.team_sofa_id) ||
       (m.home_team_code === awayTeamDoc.team_sofa_id && m.away_team_code === homeTeamDoc.team_sofa_id)
   );
 }
+
+
 private async updateFixtureSofaId(fixture: any, match: any) {
   if (!fixture.sofamatchId) {
     fixture.sofamatchId = match.match_id;
@@ -1185,8 +1224,8 @@ private async processLineup(fixture: any, matchId: string, roundId: Types.Object
       return;
     }
   const lineupResult = await this.apiService.getLineupsofa(matchId);
-
-  if (!lineupResult) return;
+console.log(lineupResult);
+  if (!lineupResult ||lineupResult.homeTeam.length === 0  || lineupResult.awayTeam.length === 0) return;
 
   for (const player of lineupResult.homeTeam) {
     const found = await this.updatePlayerLineup(player.id, roundId, 2);
@@ -1544,7 +1583,7 @@ async getMockLiveScores(matchId?: string, homeCode?: string, awayCode?: string):
     const finalHomeCode = homeCode || '7600';
     const finalAwayCode = awayCode || '7611';
     
-    const apiUrl = `http://flask-api:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
+    const apiUrl = `http://127.0.0.7:5000/events?match_id=${finalMatchId}&home_code=${finalHomeCode}&away_code=${finalAwayCode}`;
     
     console.log(`[getMockLiveScores] Calling API: ${apiUrl}`);
     

@@ -154,7 +154,7 @@ async syncFixtures() {
 const startDate = new Date();
 
 const today = new Date();
-startDate.setDate(today.getDate() );
+startDate.setDate(today.getDate() -1);
   const startDateStr = startDate.toISOString().split('T')[0];
 const todayStr = today.toISOString().split('T')[0];
 const countryId=110

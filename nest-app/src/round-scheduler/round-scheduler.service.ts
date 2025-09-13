@@ -160,7 +160,7 @@ var fixturesp = await this.fixtureService.getFixturesOfLastRound()
 // 2. Loop fixtures and process only those not lined
   for (const fixture of fixturesp) {
 
-    await this.processCleanSheet(fixture);
+   // await this.processCleanSheet(fixture);
 
     if (!fixture.Lined) {
 
@@ -205,7 +205,10 @@ var fixturesp = await this.fixtureService.getFixturesOfLastRound()
             const interval = setInterval(async () => {
               try {
                 this.logger.log(`🔄 [Live] ${fixture.homeTeam} vs ${fixture.awayTeam}`);
-                 await this.processFixtureLineup1(fixture);
+                const uodatedfixture = this.fixtureService.findOne(fixture._id)
+
+
+                 await this.processFixtureLineup1(uodatedfixture);
 
                 await this.fantazyTeamService.updateLivePlayerStatsFromApi(journee.round);
 
@@ -228,8 +231,8 @@ var fixturesp = await this.fixtureService.getFixturesOfLastRound()
   try {
    // const lastRoundFixtures = await this.fixtureService.getFixturesOfLastRound();
     //for (const fx of lastRoundFixtures) {
-    console.log(fixture)
     const cleanncheatFixture = this.fixtureService.findOne(fixture._id)
+    console.log(cleanncheatFixture)
       await this.processCleanSheet(cleanncheatFixture);
    // }
   } catch (err) {
@@ -595,7 +598,7 @@ private async processFixtureLineup1(fixture: any) {
     // Fetch lineup from API
     const lineupResult = await this.apiService.getLineupsofa(fixture.sofamatchId);
 
-    if (!lineupResult || !lineupResult.confirmed) {
+    if (!lineupResult || !lineupResult.confirmed ||lineupResult.homeTeam.length === 0  || lineupResult.awayTeam.length === 0) {
       console.warn(`Lineup fetch failed or not confirmed for fixture ${fixture._id} (matchId: ${fixture.sofamatchId})`);
       return;
     }

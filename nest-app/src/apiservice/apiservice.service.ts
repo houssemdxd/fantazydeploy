@@ -51,7 +51,7 @@ async getFixtures(from: string, to: string, countryId: number) {
     return event;
     });
   }
-  console.log(data);
+//  console.log(data);
     return data;
   /*return {
     "success": 1,
@@ -180,23 +180,20 @@ async getMatchesByRoundSofa(roundId: number) {
 
 
 
+async getLineupsofa(matchId: string) {
+  const baseUrl = 'http://flask-api:5000/lineup'; // Flask API URL
+  const url = `${baseUrl}/${matchId}`;
 
-
-  async getLineupsofa(matchId: string) {
-    const baseUrl = 'http://flask-api:5000/lineup'; // Flask API URL
-    const url = `${baseUrl}/${matchId}`;
-
-    try {
-      const response$ = this.httpService.get(url);
-      const response = await lastValueFrom(response$);
-      return response.data;
-    } catch (error) {
-      throw new HttpException(
-        `Failed to fetch lineup: ${error.message}`,
-        HttpStatus.BAD_GATEWAY,
-      );
-    }
+  try {
+    const response$ = this.httpService.get(url);
+    const response = await lastValueFrom(response$);
+    return response.data;
+  } catch (error: any) {
+    console.error(`Failed to fetch lineup for match ${matchId}:`, error.message || error);
+    // Return a default value so execution continues
+    return null; // or return [] if you prefer an empty list
   }
+}
 
 
 
